@@ -1,7 +1,9 @@
 from typing import Optional
 import re
+from dataclasses import dataclass
 
 
+@dataclass
 class AnalyseResult:
     lower_case_letters_count: int
     upper_case_letters_count: int
@@ -12,7 +14,7 @@ class AnalyseResult:
 
 class StringService:
 
-    def analyse(string: str, substring: Optional[str]) -> Optional[AnalyseResult]:
+    def analyse(self, string: str, substring: Optional[str]) -> Optional[AnalyseResult]:
 
         if not string:
             return None
