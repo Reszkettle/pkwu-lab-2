@@ -4,7 +4,7 @@ from typing import Optional
 
 class InAnalyseString(BaseModel):
     string: str
-    substring: Optional[str]
+    substring: Optional[str] = None
 
 
 class OutAnalyseString(BaseModel):
