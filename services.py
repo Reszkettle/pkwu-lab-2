@@ -9,7 +9,7 @@ class AnalyseResult:
     upper_case_letters_count: int
     digits_count: int
     special_characters_count: int
-    substring_occurrences_count: Optional[int]
+    substring_occurrences_count: Optional[int] = None
 
 
 class StringService:
