@@ -35,7 +35,5 @@ class StringService:
 
         result = AnalyseResult(lower_case_letters_count=lower_case_letters_count, upper_case_letters_count=upper_case_letters_count,
                                digits_count=digits_count, special_characters_count=special_characters_count)
-        if substring:
-            result.substring_occurrences_count = string.count(substring)
 
         return result
