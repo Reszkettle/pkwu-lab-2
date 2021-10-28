@@ -6,7 +6,7 @@ You'll find here the routes exposed by this repository. Note that you can also r
 
 ### **Analyse string**
 
-#### GET `/analyse-string`
+#### POST `/analyse-string`
 
 #### **Description**:
 
